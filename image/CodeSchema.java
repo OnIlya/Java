@@ -10,13 +10,13 @@ public class CodeSchema implements TextColorSchema {
             return '$';
         } else if (color <= 90) {
             return '&';
-        } else if (color <= 120) {
+        } else if (color <= 130) {
             return '#';
-        } else if (color <= 150) {
+        } else if (color <= 170) {
             return '*';
-        } else if (color <= 180) {
-            return '+';
         } else if (color <= 210) {
+            return '+';
+        } else if (color <= 255) {
             return '-';
         } else {
             return '.';
